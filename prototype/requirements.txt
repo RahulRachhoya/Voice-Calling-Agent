@@ -1,0 +1,24 @@
+# ARYA Prototype - Minimal Working Version
+# VideoSDK Agent SDK with Google plugin
+
+videosdk-agents[google,silero,turn_detector]>=0.0.72
+videosdk-plugins-google
+
+# Environment management
+python-dotenv
+
+# HTTP client for API calls
+httpx
+
+# Language Detection
+fasttext-wheel
+
+# Sarvam AI TTS
+sarvamai
+
+# Tavily College Search
+tavily-python
+
+# Testing
+pytest>=7.0.0
+pytest-cov>=4.0.0
